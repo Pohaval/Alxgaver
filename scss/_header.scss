@@ -1,0 +1,61 @@
+.header {
+    margin-top: 50px;
+    &__row {
+        margin-bottom: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.icons {
+    padding-top: 8px;
+
+    a {
+        margin-right: 20px;
+    }
+    height: 20px;
+    a:last-child {
+        margin-right: 0;
+    }
+}
+nav {
+    max-width: 1110px;
+    margin: 0 auto;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        li {
+            span {
+                padding: 0 20px 0 0;
+                background: url(../assets/img/icons/ardwn.svg) right no-repeat;
+            }
+            font-family: bold;
+            font-size: 16px;
+            line-height: 22px;
+            text-transform: uppercase;
+            color: #42495c;
+        }
+    }
+}
+
+.logo {
+    font-size: 28px;
+    color: #000000;
+}
+.login-search {
+    display: flex;
+
+    &__login {
+        margin-right: 14px;
+        a {
+            font-size: 16px;
+            line-height: 22px;
+            color: #24b1d0;
+        }
+    }
+    &__search {
+        vertical-align: middle;
+        .icon {
+            vertical-align: middle;
+        }
+    }
+}
