@@ -2,14 +2,16 @@
 <html lang="en">
 
 <head>
+
+
+
+    <title>Document</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.min.css">
-    <link rel="stylesheet" href="/css/fonts.css">
-
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/main.css">
-
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width">
 </head>
 
 
@@ -48,7 +50,17 @@
 
                 <ul>
                     <li class="navigation__item"> <a href="#">Главная</a></li>
-                    <li class="navigation__item"> <a href="#"><span>Ардуино</span></a></li>
+                    <li class="dropdown">
+                        <input type="checkbox" id="checkbox-toggle">
+                        <label for="checkbox-toggle"><span>ARDUINO</span> </label>
+                        <ul class="ul">
+                            <li><a href="#">Link One</a></li>
+                            <li><a href="#">Link Two</a></li>
+                            <li><a href="#">Link Three</a></li>
+                            <li><a href="#">Link Four fdsfsdfsdf</a></li>
+                        </ul>
+                    </li>
+
                     <li class="navigation__item"> <a href="#">Уроки</a></li>
                     <li class="navigation__item"> <a href="#"><span>Статьи</span></a></li>
                     <li class="navigation__item"> <a href="#"><span>Проекты</span></a></li>
@@ -250,28 +262,28 @@
     </div>
     <div class="wrapper">
         <div class="last-video">
-            <div class="left"></div>
-            <div class="card bigcard__video">
-                <div class="card__text">Гиперкуб, или тессеракт - четырёхмерный куб. Вообще в трёхмерном
-                    пространстве он существовать не может, но при помощи магии зеркал можно открыть для себя
-                    чуть
-                    больше измерений</div>
+            <div class="left">
+                <div class="card bigcard__video">
 
-                <div class="card__teg"><a href="#">СВОИМИ РУКАМИ</a> </div>
-                <a href="#" class="card__title">Бесконечный куб</a>
 
-                <div class="card__down">
-                    <div class="like-view">
-                        <div class="like-view__view">
-                            <img src="assets/img/icons/eys.svg" alt="">999+
+                    <div class="card__teg"><a href="#">СВОИМИ РУКАМИ</a> </div>
+                    <a href="#" class="card__title">Бесконечный куб</a>
+
+                    <div class="card__down">
+                        <div class="like-view">
+                            <div class="like-view__view">
+                                <img src="assets/img/icons/eys.svg" alt="">999+
+                            </div>
+                            <div class="like-view__like">
+                                <img src="assets/img/icons/heart.svg" alt=" "> 99+
+                            </div>
                         </div>
-                        <div class="like-view__like">
-                            <img src="assets/img/icons/heart.svg" alt=" "> 99+
-                        </div>
+
                     </div>
-
                 </div>
             </div>
+
+
             <div class="right-column">
                 <div class="video-card ">
                     <a href="#" class="video-card__img video-card__num1"></a>
@@ -343,26 +355,53 @@
                         </div>
 
                     </div>
-
-
                 </div>
 
 
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+
+        <div class="footer__wrap">
+            <div class="opisanie">
+                <div class="opisanie__title white">
+
+                    Alex <span class="bold">Gaver</span>
+
+                </div>
+                <div class="opisanie__text">Официальный сайт YouTube канала AlexGyver, здесь вы найдёте
+                    все
+                    исходники для Arduino проектов, авторские статьи по тематикам Ардуино и электроники,
+                    уроки Arduino</div>
+            </div>
+            <div class="footer__icons">
+                <a href="" class="icons__instagram wh-ic"><img src="assets/img/icons/inst.png" alt=""></a>
+                <a href="" class="icons__vk wh-ic"><img src="assets/img/icons/VK.png" alt=""></a>
+                <a href="" class="icons__git wh-ic"><img src="assets/img/icons/Github.png" alt=""></a>
+                <a href="" class="icons__youtube wh-ic"><img src="assets/img/icons/youtube.png" alt=""></a>
+            </div>
+            <div class="other">
+                <div class="other__title">
+                    Подробнее
+                </div>
+                <ul class="other__list">
+                    <li>Разработка на заказ</li>
+                    <li>Благодарность</li>
+                    <li>Об авторе</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="line"></div>
+        <div class="copyr"></div>
+
+    </footer>
 
 
 
-
-
-
-
-
-
-
-
-
-                <footer>
-
-                </footer>
 </body>
 
 </html>

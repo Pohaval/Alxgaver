@@ -4,6 +4,10 @@
         margin-bottom: 45px;
         display: flex;
         justify-content: space-between;
+        align-items: baseline;
+        .logo {
+            padding-left: 100px;
+        }
     }
 }
 .icons {
@@ -18,8 +22,8 @@
     }
 }
 nav {
-    max-width: 1110px;
-    margin: 0 auto;
+    width: 1110px;
+    margin: 0 150px;
     ul {
         display: flex;
         justify-content: space-between;
@@ -37,7 +41,8 @@ nav {
     }
 }
 
-.logo {
+.logo,
+.opisanie__title {
     font-size: 28px;
     color: #000000;
 }
